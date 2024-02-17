@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-content">
+            <div class="menu">
+                <button id="menu-btn" onclick="clickMenu()"><i class="fa-solid fa-bars"></i></button>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#"></a>Home</li>
+                    <li><a href="#"></a>About</li>
+                    <li><a href="#"></a>Gallery</li>
+                    <li><a href="#"></a>Services</li>
+                    <li><a href="#"></a>Contact</li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="home"></section>
+
+    <script>
+        function clickMenu(){
+            var menu = document.getElementById('nav-links');
+            menu.classList.toggle('click_menu');
+        }
+    </script>
+</body>
+</html>
